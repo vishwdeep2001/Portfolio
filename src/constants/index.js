@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    cpp
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +47,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Coding Enthusiast",
       icon: creator,
     },
   ];
@@ -73,7 +74,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Spring Boot",
       icon: typescript,
     },
     {
@@ -112,154 +113,135 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "cpp",
+      icon: cpp,
+    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Research Intern",
+      company_name: "DRDO",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Researching and simulation amplifier on input and output parameters.",
+        "Collaborating with cross-functional teams including designers and scientists for the parameters",
+        "Simulating and testing the circuits for various parameter and senstivity",
+        "Learning the research and development of BJT transistors and simulations on software for input and output parameters",
       ],
     },
+    
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Associate Software Engineer",
+      company_name: "Cyfuture India Pvt Ltd",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Java Spring Boot and Spring MVC framework and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I an inquisitive friend to work with and learn from and with.",
+      name: "Karmanya Sharma",
+      designation: "SDE",
+      company: "Big Basket",
+      image: "https://randomuser.me/api/portraits/men/6.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer loves to learn and think out of the box solutions",
+      name: "Aditya Sharma",
+      designation: "SDE",
+      company: "Optum",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "A great colleague to learn and work with and brainstorm on problems.",
+      name: "Pradeep Rathore",
+      designation: "ASE",
+      company: "Cyfuture",
+      image: "https://randomuser.me/api/portraits/men/9.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Foodie Zone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Discover a robust Full Stack web application powered by Spring Boot for the backend and React for the frontend, offering seamless integration with role-based authorization and authentication through Java Spring Security. Experience secure payment gateway integration and explore an intuitive Admin Panel for role-based access management, ensuring a comprehensive and secure user experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Spring Boot",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://https://github.com/vishwdeep2001/FoodDelivery.com/",
     },
+    
     {
-      name: "Job IT",
+      name: "Sorting Visualizer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Explore our Python web application showcasing two essential sorting algorithms, Insertion Sort and Bubble Sort. Witness the visual representation of these algorithms in action, providing insights into their functionality and performance. Choose the array size and order preference, whether ascending or descending, to delve into the intricacies of sorting techniques (Insertion Sort and Bubble Sort). ",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Numpy",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Pandas",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/vishwdeep2001/SortingVisualizer",
     },
+    {
+      name: "A* Path Finding Visualizer",
+      description:
+        "Experience a Python-based Visualizer program leveraging Python and its libraries to illustrate the intricacies of the renowned A* Algorithm, a prominent pathfinding technique. Users can designate the start and end points on a grid, marking obstacles as desired. The program then vividly showcases the pathfinding process, highlighting the path using distinct colors for clarity and insight.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Numpy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Pygame",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/vishwdeep2001/Path-visualizer-A-Algo",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

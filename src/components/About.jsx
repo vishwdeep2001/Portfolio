@@ -11,11 +11,14 @@ const ServiceCard=({index,title,icon})=>{
       <motion.div
       variants={fadeIn("right","spring",0.5*index, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-        <div onCompositionStart={{
-          max:45,
-          scale:1,
-          speed:450
-        }} className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
+        <div
+          // Corrected: onCompositionStart should be a function
+          onCompositionStart={() => {
+            // Your event handling logic here
+            console.log("Composition started");
+          }}
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        >
           <img src={icon} alt={title} className='w-16 h-16 object contain'/>
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
 
@@ -33,7 +36,7 @@ const About = () => {
     <h2 className={styles.sectionHeadText}>Overview</h2>
    </motion.div>
    <motion.p variant={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-   I'm a skilled software developer with experience in C++, Java and Pythin and 
+   I'm a skilled software developer with experience in C++, Java and Python and 
     expertise in frameworks like Spring MVC , Spring Boot and React. I'm a quick learner and 
     collaborate to create efficient, scalable and user friendly solutions that solves real world problems.
     I love developing applications and learning new every day . Lets work together and bring ideas to life!! 
